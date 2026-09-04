@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Large Datasets & Images
+3 Datasets/
+data/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+
+# Model Checkpoints & Weights
+*.pth
+*.pt
+*.ckpt
+checkpoints/*
+!checkpoints/.gitkeep
+
+# Automatic Training Reports & Outputs
+runs/
+logs/
+reports/*
+!reports/.gitkeep
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables & secrets
+.env
